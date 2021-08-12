@@ -6,11 +6,14 @@ public class Main {
 
     public static void main(String[] args){
 
-        Scanner sc = new Scanner(System.in);
-        int scanned = sc.nextInt();
-        int x = Integer.parseInt(scanned);
+        int x = 6;
+        int y = 23;
+        int z = 10;
+        // > < == >= <= !=
 
-        System.out.println(x);
+        boolean compare = !(x < y && y > z )|| (z + 2 == 5 || x + 7 > y);
+
+        System.out.println(compare);
 
     }
 

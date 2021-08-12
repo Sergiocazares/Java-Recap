@@ -1,15 +1,16 @@
 package Recap;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args){
 
-        int x = 5;
-        int y = 7;
-        int z = 57;
-        double u = z / y;
+        Scanner sc = new Scanner(System.in);
+        int scanned = sc.nextInt();
+        int x = Integer.parseInt(scanned);
 
-        System.out.println(u);
+        System.out.println(x);
 
     }
 

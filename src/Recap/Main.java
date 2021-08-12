@@ -4,14 +4,12 @@ public class Main {
 
     public static void main(String[] args){
 
-        int hello_world = 5;
-        double num2 = 5.0;
-        boolean b = true;
-        char c = 'h';
-        String str = "9";
+        int x = 5;
+        int y = 7;
+        int z = 57;
+        double u = z / y;
 
-        int tim = hello_world;
-        System.out.println(tim);
+        System.out.println(u);
 
     }
 

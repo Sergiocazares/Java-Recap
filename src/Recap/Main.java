@@ -6,14 +6,17 @@ public class Main {
 
     public static void main(String[] args){
 
+        System.out.println("Input your age: ");
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
+        int age = Integer.parseInt(s);
 
-        if (s.equals("Sergio")){
-            System.out.println("You typed Sergio");
+        if (age >= 18){
+            System.out.println("Input your fav food: ");
+            String food = sc.nextLine();
         }
-        else if (s.equals("hello")){
-            System.out.println("hello!");
+        else if (age >= 13){
+            System.out.println("You are a teenager");
         }
 
     }

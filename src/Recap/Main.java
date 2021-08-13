@@ -6,18 +6,12 @@ public class Main {
 
     public static void main(String[] args){
 
-        System.out.println("Input your age: ");
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        int age = Integer.parseInt(s);
-
-        if (age >= 18){
-            System.out.println("Input your fav food: ");
-            String food = sc.nextLine();
-        }
-        else if (age >= 13){
-            System.out.println("You are a teenager");
-        }
+        String[] newArr = new String[5];
+        newArr[0] = "hello";
+        newArr[1] = "hi";
+        newArr[2] = "tim";
+        newArr[3] = "bill";
+        newArr[4] = "joe";
 
     }
 

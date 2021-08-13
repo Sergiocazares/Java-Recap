@@ -6,14 +6,15 @@ public class Main {
 
     public static void main(String[] args){
 
-        int x = 6;
-        int y = 23;
-        int z = 10;
-        // > < == >= <= !=
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
 
-        boolean compare = !(x < y && y > z )|| (z + 2 == 5 || x + 7 > y);
-
-        System.out.println(compare);
+        if (s.equals("Sergio")){
+            System.out.println("You typed Sergio");
+        }
+        else if (s.equals("hello")){
+            System.out.println("hello!");
+        }
 
     }
 

@@ -6,19 +6,13 @@ public class Main {
 
     public static void main(String[] args){
 
-        String[] newArr = new String[5];
-        newArr[0] = "hello";
-        newArr[1] = "hi";
-        newArr[2] = "tim";
-        newArr[3] = "bill";
-        newArr[4] = "joe";
+        int[] arr = {1,5,7,3,4,5,};
 
-        int[] nums = {2,3,54,6,6};
-
-        double[] nums2 = {2.0,3.0};
-
-        int x = nums[4];
-        System.out.println(x);
+        for(int i = 0; i < arr.length; i++){
+            if (arr[i] == 5) {
+                System.out.println("Found a 5! at index " + i);
+            }
+        }
 
     }
 

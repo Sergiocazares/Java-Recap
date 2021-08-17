@@ -15,4 +15,18 @@ public class Main {
 
     }
 
+    public static void tim(String str, int x){
+        for(int i = 0; i < x; i++){
+            System.out.println(str);
+        }
+    }
+
+    public static int add2(int x){
+        return x + 2;
+    }
+
+    public static String str (String x){
+        return x + "!";
+    }
+
 }

@@ -13,6 +13,9 @@ public class Main {
 
         System.out.println(str("hi"));
 
+        int dog1 = 4;
+        int dog2 = 5;
+
     }
 
     public static void tim(String str, int x){

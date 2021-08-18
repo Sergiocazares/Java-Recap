@@ -10,4 +10,8 @@ public class Dog {
         this.age = age;
     }
 
+    public void speak(){
+        System.out.println("I am " + this.name + " and I am " + this.age + " year");
+    }
+
 }

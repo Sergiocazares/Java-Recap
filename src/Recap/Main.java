@@ -15,6 +15,7 @@ public class Main {
         bob.speak();
 
         sergio.speak();
+        sergio.getAge();
 
     }
 }

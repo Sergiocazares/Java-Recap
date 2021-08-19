@@ -7,29 +7,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        String h = "hello";
-        h.length();
+        Dog sergio = new Dog("sergio", 4);
+        sergio.speak();
+        Dog bill = new Dog("bill", 4);
+        bill.speak();
+        Dog bob = new Dog("bob", 11);
+        bob.speak();
 
-        System.out.println(str("hi"));
-
-        int dog1 = 4;
-        int dog2 = 5;
+        sergio.speak();
 
     }
-
-    public static void tim(String str, int x){
-        for(int i = 0; i < x; i++){
-            System.out.println(str);
-        }
-    }
-
-    public static int add2(int x){
-        return x + 2;
-    }
-
-    public static String str (String x){
-        return x + "!";
-    }
-
 }

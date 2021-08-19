@@ -15,7 +15,7 @@ public class Main {
         bob.speak();
 
         sergio.speak();
-        sergio.getAge();
-
+        int x = sergio.getAge();
+        System.out.println(x);
     }
 }

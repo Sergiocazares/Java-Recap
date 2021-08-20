@@ -1,4 +1,4 @@
 package Recap;
 
-public class Cat {
+public class Cat extends Dog {
 }

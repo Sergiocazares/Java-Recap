@@ -8,6 +8,8 @@ public class Dog {
     public Dog(String name, int age){
         this.name = name;
         this.age = age;
+        add2();
+        speak();
     }
 
     public void speak(){

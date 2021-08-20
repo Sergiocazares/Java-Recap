@@ -22,4 +22,8 @@ public class Dog {
         this.age = age;
     }
 
+    public int add2 (){
+        return this.age + 2;
+    }
+
 }

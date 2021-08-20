@@ -2,7 +2,9 @@ package Recap;
 
 public class Cat extends Dog {
 
-    public Cat(String name, int age){
+    private int food;
+
+    public Cat(String name, int age, int food){
         super(name, age);
     }
 

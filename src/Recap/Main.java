@@ -16,6 +16,7 @@ public class Main {
 
         sergio.speak();
         int x = sergio.getAge();
+        int x = sergio.setAge(10);
         System.out.println(x);
     }
 }

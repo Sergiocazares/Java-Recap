@@ -8,4 +8,8 @@ public class Cat extends Dog {
         super(name, age);
     }
 
+    public void speak (){
+        System.out.println("");
+    }
+
 }

@@ -12,4 +12,8 @@ public class Cat extends Dog {
         System.out.println("Meow my name is " + this.name + " and I fed" + this.food);
     }
 
+    public void eat(int x){
+        this.food -= x;
+    }
+
 }

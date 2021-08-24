@@ -9,7 +9,7 @@ public class Cat extends Dog {
     }
 
     public void speak (){
-        System.out.println("");
+        System.out.println("Meow my name is " + this.name + " and I fed" + this.food);
     }
 
 }

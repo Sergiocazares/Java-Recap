@@ -11,6 +11,11 @@ public class Cat extends Dog {
 
     public Cat(String name, int age){
         super(name, age);
+        this.food = 50;
+    }
+
+    public Cat(String name){
+        super(name, 0);
     }
 
     public void speak (){

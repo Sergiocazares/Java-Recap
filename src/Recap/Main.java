@@ -7,15 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Dog sergio = new Dog("sergio", 4);
-        sergio.speak();
-        Dog bill = new Dog("bill", 4);
-        bill.speak();
-        Dog bob = new Dog("bob", 11);
-        bob.speak();
-
-        sergio.speak();
-        int x = sergio.getAge();
-        System.out.println(x);
+        Cat tim = new Cat("tim", 18, 100);
+        tim.speak();
     }
 }

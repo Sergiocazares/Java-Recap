@@ -6,6 +6,11 @@ public class Cat extends Dog {
 
     public Cat(String name, int age, int food){
         super(name, age);
+        this.food = food;
+    }
+
+    public Cat(String name, int age){
+        super(name, age);
     }
 
     public void speak (){

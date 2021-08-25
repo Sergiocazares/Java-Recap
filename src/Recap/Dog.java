@@ -13,6 +13,7 @@ public class Dog {
         this.age = age;
         add2();
         speak();
+        Dog.count += 1;
     }
 
     public void speak(){

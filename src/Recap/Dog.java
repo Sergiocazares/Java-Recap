@@ -35,6 +35,7 @@ public class Dog {
 
     public static void display(){
         System.out.println("I am a dog!");
+        this.age;
     }
 
     public void display2(){

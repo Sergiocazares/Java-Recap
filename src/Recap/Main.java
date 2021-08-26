@@ -9,5 +9,7 @@ public class Main {
 
         Cat tim = new Cat("tim", 18, 100);
         tim.speak();
+
+        Dog tim = new Dog("tim", 9);
     }
 }

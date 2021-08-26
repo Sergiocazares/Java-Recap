@@ -14,6 +14,7 @@ public class Dog {
         add2();
         speak();
         Dog.count += 1;
+        Dog.display();
     }
 
     public void speak(){
@@ -32,4 +33,7 @@ public class Dog {
         return this.age + 2;
     }
 
+    public static void display(){
+        System.out.println("I am a dog!");
+    }
 }

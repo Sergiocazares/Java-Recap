@@ -7,9 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat tim = new Cat("tim", 18, 100);
-        tim.speak();
+        Student joe = new Student("Joe");
 
-        Dog tim = new Dog("tim", 9);
+        Student bill = new Student("Bill");
+
+        System.out.println( joe == bill);
     }
 }

@@ -22,7 +22,7 @@ public class Student implements Comparable<Student> {
     }
 
     public String toString(){
-        return "Student(" + this.name + ")";
+        return this.name;
     }
 
 }

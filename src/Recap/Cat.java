@@ -14,11 +14,6 @@ public class Cat extends Dog {
         this.food = 50;
     }
 
-    public Cat(String name){
-        super(name, 0);
-        this.food = 50;
-    }
-
     public void speak (){
         System.out.println("Meow my name is " + this.name + " and I fed" + this.food);
     }

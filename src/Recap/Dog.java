@@ -33,9 +33,8 @@ public class Dog {
         return this.age + 2;
     }
 
-    public void display(){
+    public static void display(){
         System.out.println("I am a dog!");
-        this.age;
     }
 
     public void display2(){

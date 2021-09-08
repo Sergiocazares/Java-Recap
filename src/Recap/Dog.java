@@ -21,10 +21,6 @@ public class Dog {
         System.out.println("I am " + this.name + " and I am " + this.age + " year");
     }
 
-    public int getAge(){
-        return this.age;
-    }
-
     public void setAge(int age){
         this.age = age;
     }

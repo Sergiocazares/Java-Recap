@@ -30,7 +30,7 @@ public class Dog {
     }
 
     public static void display(){
-        System.out.println("I am a dog!");
+        System.out.println("I am a DOGG!");
     }
 
     public void display2(){
